@@ -5,7 +5,7 @@
   position: fixed;
   background-color: black;
   left-margin: 10px;
-  font-size: 50px
+
   color: white;
   height: 69px;
   width: 100%;
@@ -17,12 +17,14 @@
 .tea-cozy {
   display: inline-flex;
   font-family:cursive;
+  font-size: 50px;
 
 }
 
 .links a {
   padding-left: 30px;
   padding-right: 20px;
+
  /* display: inline-block; */
  /* padding: 0px 20px; */
   /* justify-content: flex-end; */
