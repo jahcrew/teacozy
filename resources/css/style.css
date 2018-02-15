@@ -75,15 +75,35 @@
   width: 1000px;
   display: flex;
   /* flex-wrap: wrap; */
-
 }
 
-.photos img {
-  /* display: inline-block; */
-  /* flex-wrap: wrap; */
-  justify-content: space-around;
+.photos
+img  {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: center;
+
   /* align-items: center; */
   height: 200px;
   width: 300px;
+  margin: 20px;
+}
 
+.photos  figcaption{
+  text-align: center;
+  /* display: inline-block; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 200px;
+  width: 300px; */
+}
+
+.parent-container4 {
+  display: flex;
+  background-image: url(" ../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1000px;
+  align-items: center;
+  
 }
