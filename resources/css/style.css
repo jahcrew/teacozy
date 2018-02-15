@@ -1,7 +1,7 @@
 
 * {
     font-family: Helvetica;
-    font-size: 22px;
+    /* font-size: 22px; */
     color: seashell;
     background-color:black;
     opacity: 0.9;
@@ -9,7 +9,8 @@
 
 .header  {
   display:flex;
-  position: fixed;
+  /* position: fixed;  when I use this, the picture covers the header ??*/
+
   background-color: black;
   left-margin: 10px;
   color: white;
@@ -39,7 +40,7 @@
 
 }
 
-.parent-container {
+.parent-container1 {
   display: flex;
   height: 700px;
   /* height: 1000px; */
@@ -52,16 +53,37 @@
   flex-direction: column;
   /* flex-wrap: wrap; */
   width: 1200px;
-  height:
   justify-content: center;
   align-items: center;
   background-color: black;
 }
 
-.title h4 {
+.parent-container2 {
+  display: flex;
+  /* width: 1000px; */
+}
 
-  /* padding-left: 100px; */
-  /* align-self: flex-end; */
+.month {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.parent-container3 {
+  width: 1000px;
+  display: flex;
   /* flex-wrap: wrap; */
-  /* justify-content: flex-end; */
+
+}
+
+.photos img {
+  /* display: inline-block; */
+  /* flex-wrap: wrap; */
+  justify-content: space-around;
+  /* align-items: center; */
+  height: 200px;
+  width: 300px;
+
 }
