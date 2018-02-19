@@ -10,8 +10,6 @@
 .header  {
   display:flex;
   /* position: fixed;  when I use this, the picture covers the header ??*/
-
-
   background-color: black;
   left-margin: 10px;
   color: white;
@@ -20,25 +18,18 @@
   border-bottom: 1px solid seashell;
   justify-content: space-between;
   align-items: center;
-
-
 }
+
 .tea-cozy {
   display: inline-flex;
   font-family:cursive;
   font-size: 40px;
   padding-left: 10px;
-
 }
 
 .links a {
   padding-left: 30px;
   padding-right: 20px;
-
- /* display: inline-block; */
- /* padding: 0px 20px; */
-  /* justify-content: flex-end; */
-
 }
 
 .parent-container1 {
@@ -49,12 +40,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
+  margin: 0 20px;
 }
 
 .title {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -64,7 +55,6 @@
 .parent-container2 {
   display: flex;
   /* width: 1000px; */
-  
 }
 
 .month {
@@ -73,22 +63,20 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-
 }
 
 .parent-container3 {
-  width: 1000px;
+  /* width: 1000px;this makes the items centered, but 1000px is supposed to be the right width */
+  width: 100%;
   display: flex;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .photos
 img  {
   display: inline-block;
-  flex-wrap: wrap;
-  /* can't get these images to wrap!?? */
-  justify-content: space-between;
-  padding: 50px;
+  padding: 10px;
   height: 200px;
   width: 300px;
   /* margin: 20px; */
@@ -97,39 +85,24 @@ img  {
 .photos  figcaption{
   text-align: center;
   flex-wrap: wrap;
-  /* display: flex; */
-  /* display: inline-block; */
-  /* flex-wrap: wrap; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
 .parent-container4 {
   display: flex;
-  /* flex-wrap: wrap; */
   background-image: url(" ../images/img-locations-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
-  /* width: 1000px; */
-  width: 100%;
   align-items: center;
-  /* justify-content: center; */
   justify-content: space-around;
-
+  margin: 0 20px;
 }
 
 .parent-container4 h2{
   justify-content: center;
-
-
 }
 
-.locations{
-  /* display: inline-block;
-  flex-wrap: wrap;
-  justify-content: center;*/
-  /* align-items: center; */
+.locations {
   text-align: center;
   padding: 20px;
   height: 200px;
@@ -142,7 +115,8 @@ img  {
   align-items: center;
   height: 200px;
 }
+
 .copyright {
   align-self:flex-start;
-
+  padding-left: 20px;
 }
