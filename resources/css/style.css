@@ -11,6 +11,7 @@
   display:flex;
   /* position: fixed;  when I use this, the picture covers the header ??*/
 
+
   background-color: black;
   left-margin: 10px;
   color: white;
@@ -81,29 +82,41 @@
 img  {
   display: inline-block;
   flex-wrap: wrap;
-  justify-content: center;
-
+  justify-content: space-between;
+  padding: 20px;
+  /* flex-wrap: wrap;
+  justify-content: center; */
   /* align-items: center; */
   height: 200px;
   width: 300px;
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 .photos  figcaption{
   text-align: center;
+  flex-wrap: wrap;
+  /* display: flex; */
   /* display: inline-block; */
   /* flex-wrap: wrap; */
   /* justify-content: center; */
   /* align-items: center; */
-  /* height: 200px;
-  width: 300px; */
 }
 
 .parent-container4 {
   display: flex;
+  /* flex-wrap: wrap; */
   background-image: url(" ../images/img-locations-background.jpg");
   height: 500px;
   width: 1000px;
-  align-items: center;
-  
+  /* align-items: center;
+  justify-content: center; */
+}
+
+.locations{
+  /* display: inline-block;
+  flex-wrap: wrap;
+  justify-content: center;*/
+  /* align-items: center; */
+  height: 300px;
+  width: 300px;
 }
